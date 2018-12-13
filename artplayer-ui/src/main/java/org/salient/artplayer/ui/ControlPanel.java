@@ -175,7 +175,7 @@ public class ControlPanel extends AbsControlPanel {
 
     @Override
     public void onStatePreparing() {
-        showUI(loading);
+        showUI(layout_top,loading);
     }
 
     @Override
